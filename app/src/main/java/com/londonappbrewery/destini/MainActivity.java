@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                     mTopButton.setText(R.string.T3_Ans1);
                     mBottomButton.setText(R.string.T3_Ans2);
 
-                } else if (mStoryIndex == 3) {
+                } else {
 
                     // finish with T6_End
                     mStoryIndex = 6;
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                     mTopButton.setVisibility(View.GONE);
                     mBottomButton.setVisibility(View.GONE);
 
-                } else if (mStoryIndex == 3) {
+                } else {
 
                     // finish with T5_End
                     mStoryIndex = 5;
